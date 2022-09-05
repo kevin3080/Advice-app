@@ -1,0 +1,81 @@
+@import 'variables';
+
+
+
+section{
+  position: absolute;
+  top: 50%;
+  width: 545px;
+  min-height: 330px;
+  left: 50%;
+  margin: -165px 0 0 -272px;
+  background-color: $Dark-Grayish-Blue;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+   
+  
+    div{
+  
+      min-height: 210px;
+      text-align: center;
+      width: 460px;
+      display: flex;
+      flex-direction: column;
+
+
+      span{
+        color: aqua;
+        font-family: 'Manrope', sans-serif;
+        letter-spacing: 4px;
+        font-size: 13px;
+        padding-bottom: 11px;
+        padding: 50px 0 5px;
+      }
+      blockquote{
+        text-align: center;
+        color: $Light-Cyan;
+        font-size: 28px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 800;
+        padding-bottom: 15px;
+
+       
+      }
+      background-image: url(../assets/images/pattern-divider-desktop.svg);
+      background-repeat: no-repeat;
+      background-position-y: bottom;
+      background-position-x: center;
+
+      
+    }
+    button{
+      background: url(../assets/images/icon-dice.svg);
+      width: 66px;
+      height: 66px;
+      border-radius: 50%;
+      top: 37px;
+      position: relative;
+      border: 1px solid $Neon-Green;
+      background-repeat: no-repeat;
+      background-size: 35px;
+      background-position: center;
+      background-color: $Neon-Green;
+      
+      &:hover{
+        cursor: pointer;
+        box-shadow: 1px 0px 18px $Neon-Green;;
+        width: 70px;
+        height: 70px;
+        background-size: 40px;
+      }
+    }
+    
+  
+  
+}
+
+
+
