@@ -14,10 +14,11 @@ function App() {
       <div>
 
         <span>ADVICE #{id}</span>
-        <blockquote>"{advice}"</blockquote>
+        <cite>"{advice}"</cite>
       </div>
       <button onClick={random}></button>
     </section>
+  
 
   </>
   )

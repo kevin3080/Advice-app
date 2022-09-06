@@ -34,15 +34,15 @@ section{
         letter-spacing: 4px;
         font-size: 13px;
         padding-bottom: 11px;
-        padding: 50px 0 5px;
+        padding: 50px 0 10px;
       }
-      blockquote{
+      cite{
         text-align: center;
         color: $Light-Cyan;
         font-size: 28px;
         font-family: 'Manrope', sans-serif;
         font-weight: 800;
-        padding-bottom: 15px;
+        padding-bottom: 25px;
 
        
       }
@@ -88,7 +88,7 @@ section{
         span{
           font-size: 9px
         }
-        blockquote{
+        cite{
           font-size: 25px;
         }
         }
@@ -111,4 +111,20 @@ section{
 }
 
 
-
+footer{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -75px;
+  cite{
+    color: white;
+    a{
+      color: aqua;
+      text-decoration: none;
+      &:hover{
+        font-size: 17px;
+      }
+    }
+  }
+  
+}
